@@ -1,11 +1,11 @@
 ---
 name: environment-deployment
 description: Manage environments and deployments — inspect environments, run health checks, scale workers, promote releases, rollback, and detect configuration drift. Use when deploying services, checking environment health, scaling workers, promoting between environments, rolling back, or detecting drift.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-environment server connected.
 allowed-tools: [list_environments, inspect_environment, sync_environment, run_checks, scale_workers, promote_release, rollback_release, audit_trail, detect_drift, worker_status]
-tags: [infrastructure, deployment, environments, scaling, promotion]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-environment
   success-criteria:
